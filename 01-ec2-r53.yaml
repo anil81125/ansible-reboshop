@@ -3,8 +3,8 @@
   hosts: local
   connection: local
   vars:
-    ami_id: ami-0220d79f3f480ecf5
-    sg_id: sg-0ecaa8df3ad410476 # replace with your SG ID
+    ami_id: "ami-0220d79f3f480ecf5"
+    sg_id: "sg-0ecaa8df3ad410476" # replace with your SG ID
     zone_id: "Z0630174BNY3JWPLU9E5" # replace with your ID
     domain_name: "linakalinga.space"
     # we can pass instances through command line using -e
